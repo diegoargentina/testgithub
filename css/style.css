@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+header{
+	 punto 
+background: rgba(39,67,245,1);
+background: -moz-linear-gradient(45deg, rgba(39,67,245,1) 0%, rgba(39,67,245,1) 9%, rgba(8,206,255,1) 93%, rgba(8,206,255,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(39,67,245,1)), color-stop(9%, rgba(39,67,245,1)), color-stop(93%, rgba(8,206,255,1)), color-stop(100%, rgba(8,206,255,1)));
+background: -webkit-linear-gradient(45deg, rgba(39,67,245,1) 0%, rgba(39,67,245,1) 9%, rgba(8,206,255,1) 93%, rgba(8,206,255,1) 100%);
+background: -o-linear-gradient(45deg, rgba(39,67,245,1) 0%, rgba(39,67,245,1) 9%, rgba(8,206,255,1) 93%, rgba(8,206,255,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(39,67,245,1) 0%, rgba(39,67,245,1) 9%, rgba(8,206,255,1) 93%, rgba(8,206,255,1) 100%);
+background: linear-gradient(45deg, rgba(39,67,245,1) 0%, rgba(39,67,245,1) 9%, rgba(8,206,255,1) 93%, rgba(8,206,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2743f5', endColorstr='#08ceff', GradientType=1 );
+}
+
+h1{
+	padding: 30px;
+}
+
+
+header nav ul{
+	background: orange;
+	list-style: none;
+
+}
+
+
+header nav .menu li{
+	display: inline-block;
+	padding: 20px 10px;
+	position: relative;
+}
+
+header nav .menu li a{
+	text-decoration: none;
+}
+
+header nav .menu li .submenu{
+	display: none;
+	background: red;
+	position: absolute;
+	top: 80%;
+}
+
+header nav .menu li .submenu li{
+	display: block;
+}
+
+header nav .menu li .submenu li:hover {
+	transform: rotate(180deg);
+}
+
+header nav .menu li:hover .submenu{
+	display: block;
+	background: yellow;
+	padding: 10px 10px;
+}
+
+article{
+	padding: 10px;
+}
+
+p{
+	font-size: 20px;
+}
+
+div a{
+	padding: 10px;
+	background: red;
+	position: fixed;
+	bottom: 10px;
+	left: 48%;
+	border-radius: 10%;
+	text-decoration: none;
+	color: white;
+}
